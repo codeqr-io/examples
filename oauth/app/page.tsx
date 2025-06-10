@@ -1,10 +1,7 @@
 import { LinksDemo } from "@/components/links-demo";
-import { getSession } from "@/lib/actions";
 import Link from "next/link";
 
 export default async function Home() {
-  const session = await getSession();
-
   return (
     <main className="container mx-auto max-w-4xl min-h-screen flex items-center flex-col justify-center">
       <section className="w-full px-4 md:px-6 flex flex-col items-center text-center gap-6">
@@ -17,8 +14,9 @@ export default async function Home() {
             </span>
           </h1>
           <h2 className="mt-5 text-gray-600 sm:text-xl">
-            Integrate CodeQR&apos;s powerful link management infrastructure into
-            your applications.
+            Integrate CodeQR&apos;s powerful infrastructure into your
+            applications: dynamic QR code generation, link management, feedback
+            pages, and real-time monitoring.
           </h2>
         </div>
 

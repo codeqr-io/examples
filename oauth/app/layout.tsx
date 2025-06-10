@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "CodeQR OAuth Flow Demo",
   description:
-    "Learn how to use CodeQR OAuth Flow to seamlessly integrate CodeQR's link infrastructure into your app.",
+    "Learn how to use CodeQR OAuth to integrate dynamic QR codes, branded short links, landing pages, and comprehensive analytics into your applications.",
 };
 
 export default async function RootLayout({
