@@ -22,7 +22,7 @@ export default async function Home() {
 
         <div className="flex gap-2">
           <Link
-            href="https://codeqr.mintlify.app/integrations/quickstart"
+            href="https://docs.codeqr.io/integrations/quickstart"
             target="_blank"
             className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-300 border-black bg-black text-white"
           >
